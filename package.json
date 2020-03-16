@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bootstrap": "lerna bootstrap --force-local",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.15"
-  },
+  "dependencies": {},
   "devDependencies": {
     "lerna": "^3.20.2"
   }
